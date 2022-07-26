@@ -94,9 +94,9 @@ public class MainActivity extends AppCompatActivity {
                 // game reset function be called
                 gameActive = false;
                 if (gameState[winPosition[0]] == 0) {
-                    winnerStr = "Winner -> X";
+                    winnerStr = "Winner -> X.";
                 } else {
-                    winnerStr = "Winner -> O";
+                    winnerStr = "Winner -> O.";
                 }
                 // Update the status bar for winner announcement
                 TextView status = findViewById(R.id.status);
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         // set the status if the match draw
         if (counter == 9 && flag == 0) {
             TextView status = findViewById(R.id.status);
-            status.setText("Match Draw");
+            status.setText("Match Draw.");
         }
     }
 
