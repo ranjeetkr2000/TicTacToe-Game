@@ -94,9 +94,9 @@ public class MainActivity extends AppCompatActivity {
                 // game reset function be called
                 gameActive = false;
                 if (gameState[winPosition[0]] == 0) {
-                    winnerStr = "X has won";
+                    winnerStr = "Winner -> X";
                 } else {
-                    winnerStr = "O has won";
+                    winnerStr = "Winner -> O";
                 }
                 // Update the status bar for winner announcement
                 TextView status = findViewById(R.id.status);
